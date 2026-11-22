@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "lib": ["ES2023"],
+    // No Node.js or DOM types: shared code must stay pure and runtime-agnostic.
+    "types": [],
+    "noEmit": true
+  },
+  "include": ["src"]
+}
