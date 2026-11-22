@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build output
+dist/
+build/
+*.tsbuildinfo
+
+# Test output
+coverage/
+
+# Environment files (keep the committed templates)
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Generated Prisma Client (regenerated from schema.prisma via `prisma generate`)
+# Only the Prisma output folder is ignored. Other generated code stays tracked by default.
+**/generated/prisma/
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# Editor files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+
+# Misc
+.cache/
+.vite/
+*.local
